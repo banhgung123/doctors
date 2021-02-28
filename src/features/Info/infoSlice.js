@@ -529,9 +529,9 @@ const infoSlice = createSlice({
 		},
 		filter(state, action) {
 			const arr = JSON.parse(JSON.stringify(data));
-			const copy = arr.filter(
-				(val) => val.language === action.payload.value || val.language.includes(action.payload.value)
-			);
+			const copy = arr.filter((val) => {
+				return val.language === action.payload.value || val.language.includes(action.payload.value);
+			});
 
 			return [...state, copy];
 		},

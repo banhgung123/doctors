@@ -1,6 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import InfoList from 'features/Info/components/InfoList';
+import React from 'react';
 import { useSelector } from 'react-redux';
 
 ListPage.propTypes = {

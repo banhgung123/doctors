@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import FilterForm from './components/FilterForm';
-import { useDispatch } from 'react-redux';
 import { filter } from 'features/Info/infoSlice';
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import FilterForm from './components/FilterForm';
 
 FilterFeature.propTypes = {
     

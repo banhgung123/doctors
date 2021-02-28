@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import SortForm from './components/SortForm';
-import { useDispatch } from 'react-redux';
 import { sort } from 'features/Info/infoSlice';
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import SortForm from './components/SortForm';
 
 SortFeature.propTypes = {
     

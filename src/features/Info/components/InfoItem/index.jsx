@@ -10,22 +10,22 @@ InfoItem.propTypes = {
 
 InfoItem.defaultProps = {
     info: {
-            "id": 400,
-            "display_name": "BS. Nguyễn Thị Kim Ngân",
-            "avatar": "https://randomuser.me/api/portraits/women/10.jpg",
-            "language": "vi",
-            "clinic_name": "Phòng Khám Chuyên Khoa ABC",
-            "clinic_address": "201 Nguyễn Thị Định, Phường Thạnh Mỹ Lợi, Quận 2, Hồ Chí Minh, Vietnam",
-            "rating": 5,
-            "distance": 6.799155205456782,
-            "specialty": [
+            id: 400,
+            display_name: "BS. Nguyễn Thị Kim Ngân",
+            avatar: "https://randomuser.me/api/portraits/women/10.jpg",
+            language: "vi",
+            clinic_name: "Phòng Khám Chuyên Khoa ABC",
+            clinic_address: "201 Nguyễn Thị Định, Phường Thạnh Mỹ Lợi, Quận 2, Hồ Chí Minh, Vietnam",
+            rating: 5,
+            distance: 6.799155205456782,
+            specialty: [
                 {
-                    "specialty_id":10,
-                    "name": "Phụ Sản"
+                    specialty_id:10,
+                    name: "Phụ Sản"
                 },
                 {
-                    "specialty_id":13,
-                    "name": "Bác sĩ Gia đình"
+                    specialty_id:13,
+                    name: "Bác sĩ Gia đình"
                 }
             ]
         },

@@ -528,9 +528,12 @@ const infoSlice = createSlice({
 			}
 		},
 		filter(state, action) {
-			return state.filter((val) => {
-				if (val.language === action.payload.value || val.language.includes(action.payload.value)) return val;
-			});
+			const arr = JSON.parse(JSON.stringify(data));
+			const copy = arr.filter(
+				(val) => val.language === action.payload.value || val.language.includes(action.payload.value)
+			);
+
+			return [...state, copy];
 		},
 	},
 });
